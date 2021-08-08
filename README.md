@@ -2,7 +2,7 @@
 - 👀 I’m interested in Data Analytics, Machine Learning, Data Science. 
 - 🌱 I’m currently learning Analysis tool and ML algorithms. 
 - 💞️ I’m looking to collaborate on projects including work revolved around data. 
-- 📫 How to reach me
+- 📫 How to reach me? --
 Connect with me on Linkedin from here : 
 linkedin.com\in\shresthshuklaji
 
