@@ -15,4 +15,7 @@ Hackerrank :  https://www.hackerrank.com/shresthshuklaji
 <!---
 shuklaji28/shuklaji28 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
---->
+
+Find my resume here : 
+--->[SQL_Data_Analyst_Shresth.pdf](https://github.com/shuklaji28/shuklaji28/files/11850412/SQL_Data_Analyst_Shresth.pdf)
+
