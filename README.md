@@ -95,4 +95,5 @@
 
 Read latest Data and AI blogs [here](uselessAI.in) - 
 
-![image](https://github.com/user-attachments/assets/618a6410-dd39-4e58-843c-874d05b7ebfe)
+![image](https://github.com/user-attachments/assets/d7d17032-cf42-4f5a-b1ba-6f39313b7345)
+
