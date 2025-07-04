@@ -2,7 +2,7 @@
 <h3 align="center">Senior Analyst | AI x Data Engineering | Building for India</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?lines=Senior+Analyst+@EY;Building+with+AI+%26+Data;Lover+of+Side+Projects+lol;Writing+@UselessAI.in&center=true&width=440&height=45&color=FF5722&vCenter=true&pause=1000&size=22" />
+  <img src="https://readme-typing-svg.demolab.com/?lines=Senior+Analyst+@EY;Building+with+AI+%26+Data;Universal+Approximator;Writing+@UselessAI.in&center=true&width=440&height=45&color=FF5722&vCenter=true&pause=1000&size=22" />
 </p>
 
 ---
