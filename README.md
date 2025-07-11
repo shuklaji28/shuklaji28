@@ -7,6 +7,10 @@
 
 ---
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=shuklaji28&label=Profile%20views&color=0e75b6&style=flat" alt="shresthmayer" />
+</p>
+
 ### 🌐 Connect with me
 
 <p align="left">
@@ -88,11 +92,6 @@
 > Drop me a message or connect on LinkedIn — let's build something useless, or maybe not 🤖
 
 ---
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=shuklaji28&label=Profile%20views&color=0e75b6&style=flat" alt="shresthmayer" />
-</p>
-
 Read latest Data and AI blogs [here](uselessAI.in) - 
 
 ![image](https://github.com/user-attachments/assets/d7d17032-cf42-4f5a-b1ba-6f39313b7345)
