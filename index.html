@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Data & AI Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ================= HEADER / NAV ================= -->
+    <header class="site-header">
+      <div class="container flex items-center justify-between">
+        <a href="#home" class="logo text-lg fw-bold" aria-label="Home">Your&nbsp;Name</a>
+        <nav id="mainNav" class="main-nav" aria-label="Primary Navigation">
+          <ul class="nav-list flex gap-16" role="menubar">
+            <li role="none"><a role="menuitem" href="#home">Home</a></li>
+            <li role="none"><a role="menuitem" href="#about">About</a></li>
+            <li role="none"><a role="menuitem" href="#experience">Experience</a></li>
+            <li role="none"><a role="menuitem" href="#projects">Projects</a></li>
+            <li role="none"><a role="menuitem" href="#blog">Blog</a></li>
+            <li role="none"><a role="menuitem" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="navToggle" class="nav-toggle" aria-label="Open navigation menu">
+          <span class="sr-only">Menu</span>
+          <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============== HERO / HOME ================== -->
+      <section id="home" class="hero-section">
+        <div class="container flex flex-col items-center text-center gap-16 py-16">
+          <div class="avatar" id="avatar" aria-hidden="true"></div>
+          <h1 id="heroName"></h1>
+          <p id="heroTagline" class="tagline"></p>
+          <div class="flex gap-8">
+            <a href="#projects" class="btn btn--primary">View Projects</a>
+            <a href="#contact" class="btn btn--secondary">Get In Touch</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============== ABOUT ================== -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About Me</h2>
+          <p id="bio" class="mb-8"></p>
+          <h3 class="mt-8 mb-8">Core Skills</h3>
+          <ul id="skillsList" class="skills-list flex flex-wrap gap-8"></ul>
+        </div>
+      </section>
+
+      <!-- ============== EXPERIENCE ============== -->
+      <section id="experience" class="section alternate-bg">
+        <div class="container">
+          <h2>Experience</h2>
+          <div id="experienceTimeline" class="timeline"></div>
+        </div>
+      </section>
+
+      <!-- ============== PROJECTS ============== -->
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="flex justify-between items-center mb-8 flex-wrap gap-8">
+            <h2>Projects</h2>
+            <div class="filter-group flex gap-8" id="projectFilters"></div>
+          </div>
+          <div id="projectsGrid" class="projects-grid"></div>
+        </div>
+      </section>
+
+      <!-- ============== BLOG ============== -->
+      <section id="blog" class="section alternate-bg">
+        <div class="container">
+          <div class="flex flex-col gap-8 mb-8">
+            <h2>Blog</h2>
+            <input
+              type="search"
+              id="blogSearch"
+              class="form-control"
+              placeholder="Search blog posts..."
+              aria-label="Search blog posts"
+            />
+          </div>
+          <div id="blogList" class="blog-list"></div>
+        </div>
+      </section>
+
+      <!-- ============== CONTACT ============== -->
+      <section id="contact" class="section">
+        <div class="container">
+          <h2>Contact</h2>
+          <form id="contactForm" novalidate class="contact-form flex flex-col gap-8 mt-8" aria-labelledby="contactHeading">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" name="name" class="form-control" required />
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" name="email" class="form-control" required />
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+            <p id="formStatus" role="status" class="hidden"></p>
+          </form>
+          <div class="social-links flex gap-16 mt-16" id="socialLinks" aria-label="Social links"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer py-16 text-center">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
